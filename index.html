@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="contenedor">
+        <div>
+             <p id="mensaje">Hola, bienvenido a mi pagina Web</p>
+             <button id="boton">presiona este boton</button>
+        </div>
+
+        <div class="titulo-header">
+           <h1>David Moran</h1>
+        </div>
+
+            <nav>
+              <a href="#sobre-mi">Sobre mí</a>
+              <a href="#proyectos">Proyectos</a>
+              <a href="#contacto">Contacto</a>
+              <a href="mascotas.html">Mascotas</a>
+            </nav>
+          
+    </header>
+    
+    <main>
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p> Hola, soy David y en este portafolio subire mis proyectos de trabajo, 
+            <br>hablare sobre mi origen y mis metas, tendre un
+                formulario de <br> contacto y mostrare mis macotas atraves de un enlace.
+            </p>
+        </section>
+       
+        <section id="proyectos">
+                <h2>Proyectos</h2>
+                <ul class="grid-proyectos">  
+                    <li><a href="#enlace">Mi primera pagina web</a></li>
+                    <li><a href="#enlace">Proyectos con python</a></li>
+                    <li><a href="#enlace">Proyectos con JavaScript</a></li>
+                    <li><a href="#enlace">Proyectos con HTML Y CSS</a></li>
+                    <li><a href="#enlace">video juegos con <br> C ++</a></li>
+                    <li><a href="#enlace">Calculadora con Python</a></li>
+                    <li><a href="#enlace">Registro de inventario</a></li>
+                    <li><a href="#enlace">Cajero automatico</a></li>
+                    <li><a href="#enlace">Otros proyectos</a></li>
+                </ul>    
+        </section>
+
+      
+        <section id="contacto">
+            
+    
+            <form>
+                <h2>Para contactarme contigo</h2>
+                <div class="formulario">
+
+                   <label for="nombre">Nombres:</label>
+                   <input type="text" id="nombre" name="nombre" placeholder="Nombres*">
+                   <br>
+                </div>
+
+                <div class="formulario">
+                    <label for="apellido">Apellidos:</label>
+                    <input type="text" id="apellido" name="apellido" placeholder="Apellidos*">
+                    <br>
+                </div>
+
+
+                <div class="formulario">
+                    <label for="email">Correo:</label>
+                    <input type="email" id="email" name="email" placeholder="Correo electronico*">
+                    <br>
+                </div>
+
+                <div class="formulario">
+                    <label for="numero">Numero:</label>
+                    <input type="tel" id="numero" name="numero" placeholder="Numero de celular*">
+                </div>
+
+                <div class="formulario">
+                    <button id="btn" type="submit">Enviar</button>
+                </div>
+            </form>
+
+        </section>
+
+
+        <footer>
+
+            <div class="contactos-footer">
+                <h2>Contactos:</h2>
+                <ul>
+                   <li>Cel: +57 3017919175</li>
+                   <li>Email: mauricioposada08@gmail.com</li>
+               </ul>
+            </div>
+            <hr>
+            <div class="down-footer">
+                <p>&copy; 2026 Mi Sitio Web David Moran, todos los derechos reservados.</p>
+            </div>
+
+        </footer>
+    
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
