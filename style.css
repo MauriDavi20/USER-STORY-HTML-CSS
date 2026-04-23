@@ -1,76 +1,89 @@
+/* Root variables (global colors) */
 :root{
-    --color-blanco: white;
-    --color-negro: black;
-    --background-color-color-hover: rgb(74, 73, 73);
+    --color-white: white;
+    --color-black: black;
+    --hover-bg-color: rgb(74, 73, 73);
 }
 
+/* General body styles */
 body{
     margin: 0;
+
+    /* Background image */
     background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20231014/pngtree-background-texture-featuring-creamy-white-cosmetic-cream-image_13644814.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
+/* Header paragraph text color */
 header p{
-    color: var(--color-blanco);
+    color: var(--color-white);
 }
 
+/* General paragraph font */
 p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Main title styles */
 h1{
     font-size: 3rem;  
     margin: 1.9rem;
 }
 
+/* Section spacing */
 section{
     padding: 4rem;
 }
 
+/* Header styling */
 header{
-    background-color: var(--color-negro);
+    background-color: var(--color-black);
     padding: 3rem 2rem;
 }
 
-.contenedor{
+/* Flex container for header layout */
+.container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
-.titulo-header{
-    color: var(--color-blanco);
-
+/* Header title styles */
+.header-title{
+    color: var(--color-white);
 }
 
-#sobre-mi{
+/* About section */
+#about-me{
     background: #f4f4f4;
     margin: 1.9rem;
 }
 
+/* Remove default link underline */
 a{
     text-decoration: none;
 }
 
+/* Navigation links inside header */
 header a{
-    color: var(--color-blanco);
-    margin: 10px ;
+    color: var(--color-white);
+    margin: 10px;
     padding: 10px;
     border-radius: 5px;  
     font-size: 1.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* Hover effect for nav links */
 header a:hover{
-   background-color: var(--background-color-color-hover);
-   padding: 10px;
+   background-color: var(--hover-bg-color);
    border-radius: 5px;
 }
 
-.grid-proyectos {
+/* Projects grid layout */
+.projects-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     grid-template-rows: repeat(3, 1fr);    
@@ -79,94 +92,102 @@ header a:hover{
     list-style: none;
     padding: 0;
     margin-top: 20px;
+
+    /* Smooth animation */
     transition: all 0.3s ease;
-    
 }
 
-.grid-proyectos li {
+/* Each project card */
+.projects-grid li {
     background: #eaeaea;
     padding: 20px;
     border-radius: 8px;
     transition: all 0.3s ease;
 }
 
-.grid-proyectos li a {
+/* Project links */
+.projects-grid li a {
     color: #333;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
+/* General list link color */
 li a {
-    color: var(--color-negro);
+    color: var(--color-black);
 }
 
-.grid-proyectos li:hover {
-    background: rgb(74, 73, 73);
+/* Hover effect on project card */
+.projects-grid li:hover {
+    background: var(--hover-bg-color);
 }
 
-.grid-proyectos li:hover a {
-    color: white;
+/* Change text color on hover */
+.projects-grid li:hover a {
+    color: var(--color-white);
 }
 
-#sobre-mi{
+/* About section card styling */
+#about-me{
     max-width: 700px;  
     margin: 5rem auto; 
     border-radius: 10px;
-    box-shadow: 1px 1px 5px 5px var(--background-color-color-hover);
+    box-shadow: 1px 1px 5px 5px var(--hover-bg-color);
     padding: 15px;   
     text-align: center;
 }
 
-
-#proyectos {
+/* Projects section card styling */
+#projects {
     background: #f4f4f4;
     max-width: 700px;  
     margin: 0 auto;   
     border-radius: 10px;
-    box-shadow: 1px 1px 5px 5px var(--background-color-color-hover);
+    box-shadow: 1px 1px 5px 5px var(--hover-bg-color);
     padding: 2rem; 
     text-align: center;
 }
 
-#contacto{
-
+/* Contact section */
+#contact{
     max-width: 700px;  
     margin: 0 auto;    
     text-align: center;
 }
 
-.formulario{
+/* Form group container */
+.form-group{
     margin-bottom: 10px;
     padding: 1rem;
 }
    
-.formulario input{
+/* Input fields inside form */
+.form-group input{
     width: 100%;
     padding: 10px;
     box-sizing: border-box; 
 }
 
-
+/* Form container styling */
 form{
     background: #f4f4f4;
     border-radius: 10px;
-    box-shadow: 1px 1px 5px 5px var(--background-color-color-hover);
+    box-shadow: 1px 1px 5px 5px var(--hover-bg-color);
     padding: 15px;
     max-width: 400px;
     margin: auto;
 }
 
-#email{
-    margin: 11px;    
-}
 
+/* General input styles */
 input{
     border-radius: 6px;
     box-shadow: 1px 1px 1px 1px rgb(154, 154, 154);
     padding: 9px;
 }
 
-#btn{
+/* Submit button */
+#submit-btn{
     position: relative;
     border-radius: 6px;
     box-shadow: 1px 1px 1px 1px rgb(154, 154, 154);
@@ -174,79 +195,90 @@ input{
     font-size: medium;
 }
 
-#btn:hover{
-    font-size:medium;
-    color: var(--color-blanco);
-    background-color: var(--background-color-color-hover);
-    padding: 10px;
+/* Button hover effect */
+#submit-btn:hover{
+    color: var(--color-white);
+    background-color: var(--hover-bg-color);
     border-radius: 6px;
 }
 
-
-.mascotas img {
+/* Pet images */
+.pet-card img {
     width: 100%;
     max-width: 100px;
     border-radius: 8px;
     margin: 10px 0;
 }
 
-#mascotas {
+/* Pets grid container */
+#pets {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+
+    /* Responsive columns that auto-fit */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
     gap: 20px;
+
     max-width: 1000px;
-    margin: auto;
+    margin: 0 auto; /* centers the grid */
     padding: 20px;
+
+    justify-content: center; /* centers items horizontally */
 }
 
+/* Pet card */
+.pet-card {
+    width: 100%; /* take full grid space (important fix) */
+    max-width: 300px; /* prevents cards from being too large */
 
-.mascotas{
-    height: 20rem;
-    width: 20rem;
-    margin: 1rem;
+    margin: 0 auto; /* centers each card inside its column */
+
     border-radius: 10px;
-    box-shadow: 1px 1px 5px 5px var(--background-color-color-hover);
+    box-shadow: 1px 1px 5px 5px var(--hover-bg-color);
     padding: 15px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+
     font-size: 15px;
     transition: 0.3s;
     background: #f4f4f4;
-   
 }
 
-.mascotas:hover {
-    background: rgb(74, 73, 73);
-    color: white;
+/* Hover effect on pet card */
+.pet-card:hover {
+    background: var(--hover-bg-color);
+    color: var(--color-white);
     transform: scale(1.05);
 }
 
+/* Footer styling */
 footer{
-    background-color: var(--color-negro);
+    background-color: var(--color-black);
     padding: 3rem 2rem;
     text-align: center;
-
 }
 
-.contactos-footer{
-    color: var(--color-blanco);
-    
+/* Footer contact section */
+.footer-contacts{
+    color: var(--color-white);
 }
 
-.contactos-footer ul {
+/* Remove list styles in footer */
+.footer-contacts ul {
     list-style: none;   
     padding: 0;        
     margin: 0;         
 }
 
-
-
-.down-footer{
-    color: var(--color-blanco);
+/* Bottom footer text */
+.footer-bottom{
+    color: var(--color-white);
 }
 
+/* Tablet responsive design */
 @media (max-width: 900px) {
 
     nav {
@@ -258,15 +290,16 @@ footer{
         margin: 5px 0;
     }
 
-    .grid-proyectos {
+    .projects-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    #mascotas {
+    #pets {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
+/* Mobile responsive design */
 @media (max-width: 600px) {
 
     nav {
@@ -278,11 +311,11 @@ footer{
         margin: 5px 0;
     }
 
-    .grid-proyectos {
+    .projects-grid {
         grid-template-columns: 1fr;
     }
 
-    #mascotas {
+    #pets {
         grid-template-columns: 1fr;
     }
 

@@ -1,68 +1,67 @@
-# USER-STORY-HTML-CSS
-## Repositorio en github:
-### https://github.com/MauriDavi20/historia-de-usuario-HTML-CSS.git
+# USER-STORY-HTML-CSS  
+## GitHub Repository:  
+### https://github.com/MauriDavi20/historia-de-usuario-HTML-CSS.git  
 
-## Descripcion
+## Description  
 
-Este proyecto se basa en crear un portafolio en donde aprenderemos a crear un sitio web para nuestro proyectos personales o para cualquier emprendimiento. En el portafolio nos encontraremos con una cabecera de pagina que tendra nuestro nombre, un menu de navegacion y en mi caso un texto que se podra cambiar atraves de JavaScript.El menu de navegacion tendra las secciones de: Sobre mi, Proyectos , contacto y Mascotas, Que podremos dirigirnos por medio de enlaces vinculados por id.
+This project is based on creating a portfolio where we will learn how to build a website for our personal projects or any type of venture. In the portfolio, we will find a page header that includes our name, a navigation menu, and in my case, a text that can be changed through JavaScript.  
 
-Dentro del body, tendremos varias secciones: Sobre mi, proyectos y contactos. En sobre mi, una breve descripcion de quien soy, En proyectos mostrarte todo los trabajos realizados actualmente, y en contactos veran un formulario para poder contactarme.
+The navigation menu will include the sections: About Me, Projects, Contact, and Pets, which we can access through links connected by IDs.  
 
-## Funcionalidades
-### Menu de navegacion
-- Sobre mi
-- Proyectos
-- Contacto
-- Pagina secundaria
+Within the body, we will have several sections: About Me, Projects, and Contact. In “About Me,” there is a brief description of who I am. In “Projects,” you can see all the work I have done so far. In “Contact,” there is a form where users can reach out to me.  
 
-## Sobre mi
-Descripcion de mi portafolio y autobiografia.
+## Features  
 
-## Proyectos
-Lista de proyectos en los que he trabajo actualmente visualizados en un layout.
+### Navigation Menu  
+- About Me  
+- Projects  
+- Contact  
+- Secondary Page  
 
-## Contacto
-Formulario en el que podran contactarme.
+### About Me  
+Description of my portfolio and autobiography.  
 
-### pagina secundaria
-- Enlace para volver al portafolio
-- Imagenes de mis mascotas y una breve descripciones de ellas.
-- Boton de Mostrar/ocultar.
+### Projects  
+List of projects I have worked on, displayed in a layout.  
 
+### Contact  
+Form where users can contact me.  
 
-## Estructura del proyecto
-Portafolio
+### Secondary Page  
+- Link to return to the portfolio  
+- Images of my pets with brief descriptions  
+- Show/Hide button  
 
-── index.html          # Estructura del sitio
+## Project Structure  
 
-│── styles.css    # Estilos del sitio
+Portfolio  
 
-│── script.js     # agrega una pequeña interactividad
+── index.html      # Website structure  
+│── styles.css     # Website styles  
+│── script.js      # Adds interactivity  
+│── README.md  
 
-│── README.md
+## Technologies Used  
+- HTML  
+- CSS  
+- JavaScript  
 
-## Tecnologias utilizadas
-- HTML
-- CSS
-- JavaScript
+## How to Run  
 
-## Como ejecutarlo:
-
-1. clona el repositorio:
-
+1. Clone the repository:  
 ```
    git clone https://github.com/MauriDavi20/USER-STORY-HTML-CSS.git
 ```
-2. Entra al proyecto:
 
+2. Enter the project folder:  
 ```
    cd USER-STORY-HTML-CSS
-```
+````
 
-# Usos
-- Portafolio personal donde podras ver sobre mis proyectos de trabajo.
 
-- Informacion personal para poder contactarme en cualquier momento.
+## Uses  
+- Personal portfolio where you can view my work projects  
+- Personal information so you can contact me at any time  
 
-# Autor
+## Author  
 ### David Moran
